@@ -1,0 +1,198 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage{graphicx}
+\usepackage{lscape}
+\title{Results}
+\author{}
+\date{\today}
+\begin{document}
+\begin{landscape}
+\oddsidemargin 0in \topmargin 0in\maketitle
+\section{Tables of Friedman, Bonferroni-Dunn, Holm, Hochberg and Hommel Tests}
+\begin{table}[!htp]
+\centering
+\caption{Average Rankings of the algorithms
+}\begin{tabular}{c|c}
+Algorithm&Ranking\\
+\hline
+Col09&3.4166666666666665\\
+Byk13&1.2499999999999998\\
+Ham13&4.666666666666666\\
+Bat17&2.583333333333333\\
+FastSA&3.083333333333333\\
+\end{tabular}
+\end{table}
+
+
+Friedman statistic considering reduction performance (distributed according to chi-square with 4 degrees of freedom: 29.73333333333329.
+
+
+P-value computed by Friedman Test: 5.545954431029898E-6.\newline
+
+Iman and Davenport statistic considering reduction performance (distributed according to F-distribution with 4 and 44 degrees of freedom: 17.90510948905103.
+
+
+P-value computed by Iman and Daveport Test: 8.597571862878918E-9.\newline
+
+\begin{table}[!htp]
+\centering\tiny
+\caption{Holm / Hochberg Table for $\alpha=0.05$}
+\begin{tabular}{ccccc}
+$i$&algorithm&$z=(R_0 - R_i)/SE$&$p$&Holm/Hochberg/Hommel\\
+\hline
+4&Ham13&5.293077239816802&1.2027508945921517E-7&0.0125\\
+3&Col09&3.356585566713095&7.891129890156221E-4&0.016666666666666666\\
+2&FastSA&2.840187787218772&0.004508698364904261&0.025\\
+1&Bat17&2.065591117977289&0.03886710381241729&0.05\\
+\hline
+\end{tabular}
+\end{table}
+Bonferroni-Dunn's procedure rejects those hypotheses that have a p-value $\le0.0125$.
+
+
+Hochberg's procedure rejects those hypotheses that have a p-value $\le0.05$.
+
+
+Hommel's procedure rejects all hypotheses.
+
+
+\begin{table}[!htp]
+\centering\tiny
+\caption{Holm / Hochberg Table for $\alpha=0.10$}
+\begin{tabular}{ccccc}
+$i$&algorithm&$z=(R_0 - R_i)/SE$&$p$&Holm/Hochberg/Hommel\\
+\hline
+4&Ham13&5.293077239816802&1.2027508945921517E-7&0.025\\
+3&Col09&3.356585566713095&7.891129890156221E-4&0.03333333333333333\\
+2&FastSA&2.840187787218772&0.004508698364904261&0.05\\
+1&Bat17&2.065591117977289&0.03886710381241729&0.1\\
+\hline
+\end{tabular}
+\end{table}
+Bonferroni-Dunn's procedure rejects those hypotheses that have a p-value $\le0.025$.
+
+
+Hochberg's procedure rejects those hypotheses that have a p-value $\le0.1$.
+
+
+Hommel's procedure rejects all hypotheses.
+
+
+\begin{table}[!htp]
+\centering\tiny
+\caption{Adjusted $p$-values}
+\begin{tabular}{ccccccc}
+i&algorithm&unadjusted $p$&$p_{Bonf}$&$p_{Holm}$&$p_{Hoch}$&$p_{Homm}$\\
+\hline
+1&Ham13&1.2027508945921517E-7&4.811003578368607E-7&4.811003578368607E-7&4.811003578368607E-7&4.811003578368607E-7\\
+2&Col09&7.891129890156221E-4&0.0031564519560624885&0.0023673389670468663&0.0023673389670468663&0.0023673389670468663\\
+3&FastSA&0.004508698364904261&0.018034793459617043&0.009017396729808521&0.009017396729808521&0.009017396729808521\\
+4&Bat17&0.03886710381241729&0.15546841524966917&0.03886710381241729&0.03886710381241729&0.03886710381241729\\
+\hline
+\end{tabular}
+\end{table}
+
+\begin{table}[!htp]
+\centering\tiny
+\caption{Holm / Shaffer Table for $\alpha=0.05$}
+\begin{tabular}{cccccc}
+$i$&algorithms&$z=(R_0 - R_i)/SE$&$p$&Holm&Shaffer\\
+\hline
+10&Byk13 vs. Ham13&5.293077239816802&1.2027508945921517E-7&0.005&0.005\\
+9&Col09 vs. Byk13&3.356585566713095&7.891129890156221E-4&0.005555555555555556&0.008333333333333333\\
+8&Ham13 vs. Bat17&3.227486121839514&0.0012488309880884449&0.00625&0.008333333333333333\\
+7&Byk13 vs. FastSA&2.840187787218772&0.004508698364904261&0.0071428571428571435&0.008333333333333333\\
+6&Ham13 vs. FastSA&2.4528894525980305&0.014171388254012299&0.008333333333333333&0.008333333333333333\\
+5&Byk13 vs. Bat17&2.065591117977289&0.03886710381241729&0.01&0.01\\
+4&Col09 vs. Ham13&1.9364916731037078&0.05280751141611372&0.0125&0.0125\\
+3&Col09 vs. Bat17&1.2909944487358058&0.19670560245894683&0.016666666666666666&0.016666666666666666\\
+2&Bat17 vs. FastSA&0.7745966692414834&0.4385780260809999&0.025&0.025\\
+1&Col09 vs. FastSA&0.5163977794943225&0.6055766163353462&0.05&0.05\\
+\hline
+\end{tabular}
+\end{table}
+Nemenyi's procedure rejects those hypotheses that have a p-value $\le0.005$.
+
+
+Holm's procedure rejects those hypotheses that have a p-value $\le0.008333333333333333$.
+
+
+Shaffer's procedure rejects those hypotheses that have a p-value $\le0.005$.
+
+
+Bergmann's procedure rejects these hypotheses:
+
+
+\begin{itemize}
+
+
+\item Col09 vs. Byk13
+\item Byk13 vs. Ham13
+\item Byk13 vs. FastSA
+\item Ham13 vs. Bat17
+\end{itemize}
+
+
+\begin{table}[!htp]
+\centering\tiny
+\caption{Holm / Shaffer Table for $\alpha=0.10$}
+\begin{tabular}{cccccc}
+$i$&algorithms&$z=(R_0 - R_i)/SE$&$p$&Holm&Shaffer\\
+\hline
+10&Byk13 vs. Ham13&5.293077239816802&1.2027508945921517E-7&0.01&0.01\\
+9&Col09 vs. Byk13&3.356585566713095&7.891129890156221E-4&0.011111111111111112&0.016666666666666666\\
+8&Ham13 vs. Bat17&3.227486121839514&0.0012488309880884449&0.0125&0.016666666666666666\\
+7&Byk13 vs. FastSA&2.840187787218772&0.004508698364904261&0.014285714285714287&0.016666666666666666\\
+6&Ham13 vs. FastSA&2.4528894525980305&0.014171388254012299&0.016666666666666666&0.016666666666666666\\
+5&Byk13 vs. Bat17&2.065591117977289&0.03886710381241729&0.02&0.025\\
+4&Col09 vs. Ham13&1.9364916731037078&0.05280751141611372&0.025&0.025\\
+3&Col09 vs. Bat17&1.2909944487358058&0.19670560245894683&0.03333333333333333&0.03333333333333333\\
+2&Bat17 vs. FastSA&0.7745966692414834&0.4385780260809999&0.05&0.05\\
+1&Col09 vs. FastSA&0.5163977794943225&0.6055766163353462&0.1&0.1\\
+\hline
+\end{tabular}
+\end{table}
+Nemenyi's procedure rejects those hypotheses that have a p-value $\le0.01$.
+
+
+Holm's procedure rejects those hypotheses that have a p-value $\le0.02$.
+
+
+Shaffer's procedure rejects those hypotheses that have a p-value $\le0.01$.
+
+
+Bergmann's procedure rejects these hypotheses:
+
+
+\begin{itemize}
+
+
+\item Col09 vs. Byk13
+\item Byk13 vs. Ham13
+\item Byk13 vs. Bat17
+\item Byk13 vs. FastSA
+\item Ham13 vs. Bat17
+\item Ham13 vs. FastSA
+\end{itemize}
+
+
+\begin{table}[!htp]
+\centering\tiny
+\caption{Adjusted $p$-values}
+\begin{tabular}{cccccccc}
+i&hypothesis&unadjusted $p$&$p_{Neme}$&$p_{Holm}$&$p_{Shaf}$&$p_{Berg}$\\
+\hline
+1&Byk13 vs .Ham13&1.2027508945921517E-7&1.2027508945921517E-6&1.2027508945921517E-6&1.2027508945921517E-6&1.2027508945921517E-6\\
+2&Col09 vs .Byk13&7.891129890156221E-4&0.007891129890156222&0.007102016901140599&0.0047346779340937326&0.0047346779340937326\\
+3&Ham13 vs .Bat17&0.0012488309880884449&0.012488309880884448&0.009990647904707559&0.00749298592853067&0.00749298592853067\\
+4&Byk13 vs .FastSA&0.004508698364904261&0.04508698364904261&0.03156088855432983&0.027052190189425562&0.018034793459617043\\
+5&Ham13 vs .FastSA&0.014171388254012299&0.141713882540123&0.0850283295240738&0.0850283295240738&0.056685553016049196\\
+6&Byk13 vs .Bat17&0.03886710381241729&0.3886710381241729&0.19433551906208646&0.15546841524966917&0.07773420762483459\\
+7&Col09 vs .Ham13&0.05280751141611372&0.5280751141611372&0.21123004566445489&0.21123004566445489&0.10561502283222744\\
+8&Col09 vs .Bat17&0.19670560245894683&1.9670560245894684&0.5901168073768405&0.5901168073768405&0.5901168073768405\\
+9&Bat17 vs .FastSA&0.4385780260809999&4.385780260809999&0.8771560521619998&0.8771560521619998&0.5901168073768405\\
+10&Col09 vs .FastSA&0.6055766163353462&6.0557661633534625&0.8771560521619998&0.8771560521619998&0.6055766163353462\\
+\hline
+\end{tabular}
+\end{table}
+
+\end{landscape}\end{document}

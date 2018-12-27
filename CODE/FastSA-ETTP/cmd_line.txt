@@ -1,0 +1,11 @@
+
+// Run
+
+$./exes 1 ./../../../../ETTP-Benchmarks/ITC2007 ./Run1/
+
+
+
+
+
+
+

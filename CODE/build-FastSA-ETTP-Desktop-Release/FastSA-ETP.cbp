@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="FastSA-ETP" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;CMake Files\lib\;CMake Files\lib\algorithms\;CMake Files\lib\chromosome\;CMake Files\lib\containers\;CMake Files\lib\data\;CMake Files\lib\eval\;CMake Files\lib\graphColouring\;CMake Files\lib\init\;CMake Files\lib\kempeChain\;CMake Files\lib\neighbourhood\;CMake Files\lib\statistics\;CMake Files\lib\testset\;CMake Files\lib\utils\;CMake Files\lib\validator\;CMake Files\exes\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/build-FastSA-ETTP-Desktop-Release" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/build-FastSA-ETTP-Desktop-Release/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/build-FastSA-ETTP-Desktop-Release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/build-FastSA-ETTP-Desktop-Release/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/build-FastSA-ETTP-Desktop-Release/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="edit_cache">
+         <Option working_dir="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/build-FastSA-ETTP-Desktop-Release" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/build-FastSA-ETTP-Desktop-Release/Makefile&quot;  VERBOSE=1 edit_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/build-FastSA-ETTP-Desktop-Release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/build-FastSA-ETTP-Desktop-Release/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/build-FastSA-ETTP-Desktop-Release/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/build-FastSA-ETTP-Desktop-Release" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/build-FastSA-ETTP-Desktop-Release/Makefile&quot;  VERBOSE=1 rebuild_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/build-FastSA-ETTP-Desktop-Release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/build-FastSA-ETTP-Desktop-Release/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/build-FastSA-ETTP-Desktop-Release/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="SOlib">
+         <Option output="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/build-FastSA-ETTP-Desktop-Release/lib/libSOlib.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/build-FastSA-ETTP-Desktop-Release/lib" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/../../../ext/include/ParadisEO-2.0/eo/src" />
+            <Add directory="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/../../../ext/include/ParadisEO-2.0/mo/src" />
+            <Add directory="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/../../../ext/include/ParadisEO-2.0/moeo/src" />
+            <Add directory="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/exes" />
+            <Add directory="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/lib" />
+            <Add directory="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/lib/../../ext/include/ParadisEO-2.0/eo/src" />
+            <Add directory="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/lib/../../ext/include/ParadisEO-2.0/mo/src" />
+            <Add directory="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/lib/../../ext/include/ParadisEO-2.0/moeo/src" />
+            <Add directory="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/lib/chromosome" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/build-FastSA-ETTP-Desktop-Release/lib/Makefile&quot;  VERBOSE=1 SOlib" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/build-FastSA-ETTP-Desktop-Release/lib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/build-FastSA-ETTP-Desktop-Release/lib/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/build-FastSA-ETTP-Desktop-Release/lib/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="SOlib/fast">
+         <Option output="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/build-FastSA-ETTP-Desktop-Release/lib/libSOlib.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/build-FastSA-ETTP-Desktop-Release/lib" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/../../../ext/include/ParadisEO-2.0/eo/src" />
+            <Add directory="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/../../../ext/include/ParadisEO-2.0/mo/src" />
+            <Add directory="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/../../../ext/include/ParadisEO-2.0/moeo/src" />
+            <Add directory="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/exes" />
+            <Add directory="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/lib" />
+            <Add directory="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/lib/../../ext/include/ParadisEO-2.0/eo/src" />
+            <Add directory="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/lib/../../ext/include/ParadisEO-2.0/mo/src" />
+            <Add directory="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/lib/../../ext/include/ParadisEO-2.0/moeo/src" />
+            <Add directory="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/lib/chromosome" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/build-FastSA-ETTP-Desktop-Release/lib/Makefile&quot;  VERBOSE=1 SOlib/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/build-FastSA-ETTP-Desktop-Release/lib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/build-FastSA-ETTP-Desktop-Release/lib/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/build-FastSA-ETTP-Desktop-Release/lib/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="exes">
+         <Option output="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/build-FastSA-ETTP-Desktop-Release/exes/exes" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/build-FastSA-ETTP-Desktop-Release/exes" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/../../../ext/include/ParadisEO-2.0/eo/src" />
+            <Add directory="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/../../../ext/include/ParadisEO-2.0/mo/src" />
+            <Add directory="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/../../../ext/include/ParadisEO-2.0/moeo/src" />
+            <Add directory="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/exes" />
+            <Add directory="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/lib" />
+            <Add directory="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/lib/chromosome" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/build-FastSA-ETTP-Desktop-Release/exes/Makefile&quot;  VERBOSE=1 exes" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/build-FastSA-ETTP-Desktop-Release/exes/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/build-FastSA-ETTP-Desktop-Release/exes/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/build-FastSA-ETTP-Desktop-Release/exes/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="exes/fast">
+         <Option output="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/build-FastSA-ETTP-Desktop-Release/exes/exes" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/build-FastSA-ETTP-Desktop-Release/exes" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/../../../ext/include/ParadisEO-2.0/eo/src" />
+            <Add directory="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/../../../ext/include/ParadisEO-2.0/mo/src" />
+            <Add directory="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/../../../ext/include/ParadisEO-2.0/moeo/src" />
+            <Add directory="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/exes" />
+            <Add directory="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/lib" />
+            <Add directory="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/lib/chromosome" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/build-FastSA-ETTP-Desktop-Release/exes/Makefile&quot;  VERBOSE=1 exes/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/build-FastSA-ETTP-Desktop-Release/exes/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/build-FastSA-ETTP-Desktop-Release/exes/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/build-FastSA-ETTP-Desktop-Release/exes/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/exes/TestSO.cpp">
+         <Option target="exes"/>
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/lib/MainApp.cpp">
+         <Option target="SOlib"/>
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/lib/MainAppITC2007Datasets.cpp">
+         <Option target="SOlib"/>
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/lib/algorithms/eo/Crossover.cpp">
+         <Option target="SOlib"/>
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/lib/algorithms/eo/Crossover.h">
+         <Option target="SOlib"/>
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/lib/algorithms/eo/Mutation.cpp">
+         <Option target="SOlib"/>
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/lib/algorithms/eo/Mutation.h">
+         <Option target="SOlib"/>
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/lib/algorithms/eo/eoAlgoPointer.h">
+         <Option target="SOlib"/>
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/lib/algorithms/eo/eoCellularEA.h">
+         <Option target="SOlib"/>
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/lib/algorithms/eo/eoCellularEAMatrix.h">
+         <Option target="SOlib"/>
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/lib/algorithms/eo/eoCellularEARing.h">
+         <Option target="SOlib"/>
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/lib/algorithms/eo/eoDeterministicTournamentSelectorPointer.h">
+         <Option target="SOlib"/>
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/lib/algorithms/eo/eoEvolutionOperator.h">
+         <Option target="SOlib"/>
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/lib/algorithms/eo/eoGenerationContinue.h">
+         <Option target="SOlib"/>
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/lib/algorithms/eo/eoGenerationContinuePopVector.h">
+         <Option target="SOlib"/>
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/lib/algorithms/eo/eoSelectBestOne.h">
+         <Option target="SOlib"/>
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/lib/algorithms/mo/moGDA.h">
+         <Option target="SOlib"/>
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/lib/algorithms/mo/moGDAexplorer.h">
+         <Option target="SOlib"/>
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/lib/algorithms/mo/moSA.h">
+         <Option target="SOlib"/>
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/lib/algorithms/mo/moSAexplorer.h">
+         <Option target="SOlib"/>
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/lib/algorithms/mo/moSimpleCoolingSchedule.h">
+         <Option target="SOlib"/>
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/lib/algorithms/mo/moTA.h">
+         <Option target="SOlib"/>
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/lib/algorithms/mo/moTAexplorer.h">
+         <Option target="SOlib"/>
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/lib/algorithms/mo/statistics/moTAWithStatisticsOpt.h">
+         <Option target="SOlib"/>
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/lib/algorithms/mo/statistics/moTAexplorerWithStatisticsOpt.h">
+         <Option target="SOlib"/>
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/lib/chromosome/eoChromosome.cpp">
+         <Option target="SOlib"/>
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/lib/chromosome/eoChromosome.h">
+         <Option target="SOlib"/>
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/lib/containers/ColumnMatrix.h">
+         <Option target="SOlib"/>
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/lib/containers/ConflictBasedStatistics.cpp">
+         <Option target="SOlib"/>
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/lib/containers/ConflictBasedStatistics.h">
+         <Option target="SOlib"/>
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/lib/containers/IntMatrix.h">
+         <Option target="SOlib"/>
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/lib/containers/Matrix.h">
+         <Option target="SOlib"/>
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/lib/containers/TimetableContainer.h">
+         <Option target="SOlib"/>
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/lib/containers/TimetableContainerMatrix.cpp">
+         <Option target="SOlib"/>
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/lib/containers/TimetableContainerMatrix.h">
+         <Option target="SOlib"/>
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/lib/containers/VertexPriorityQueue.cpp">
+         <Option target="SOlib"/>
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/lib/containers/VertexPriorityQueue.h">
+         <Option target="SOlib"/>
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/lib/data/Constraint.hpp">
+         <Option target="SOlib"/>
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/lib/data/ConstraintValidator.hpp">
+         <Option target="SOlib"/>
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/lib/data/Data.h">
+         <Option target="SOlib"/>
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/lib/data/Exam.h">
+         <Option target="SOlib"/>
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/lib/data/ITC2007Constraints.hpp">
+         <Option target="SOlib"/>
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/lib/data/ITC2007Period.h">
+         <Option target="SOlib"/>
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/lib/data/Period.h">
+         <Option target="SOlib"/>
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/lib/data/Room.h">
+         <Option target="SOlib"/>
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/lib/data/ScheduledExam.h">
+         <Option target="SOlib"/>
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/lib/data/ScheduledRoom.h">
+         <Option target="SOlib"/>
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/lib/data/TimetableProblemData.cpp">
+         <Option target="SOlib"/>
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/lib/data/TimetableProblemData.hpp">
+         <Option target="SOlib"/>
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/lib/eval/eoETTPEval.h">
+         <Option target="SOlib"/>
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/lib/eval/eoETTPEvalNumberEvalsCounter.h">
+         <Option target="SOlib"/>
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/lib/eval/eoNumberEvalsCounter.h">
+         <Option target="SOlib"/>
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/lib/eval/statistics/eoETTPEvalWithStatistics.h">
+         <Option target="SOlib"/>
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/lib/graphColouring/GraphColouringHeuristics.h">
+         <Option target="SOlib"/>
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/lib/init/ETTPInit.h">
+         <Option target="SOlib"/>
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/lib/kempeChain/ETTPKempeChain.h">
+         <Option target="SOlib"/>
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/lib/kempeChain/ETTPKempeChainHeuristic.h">
+         <Option target="SOlib"/>
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/lib/kempeChain/statistics/ETTPKempeChainHeuristicWithStatistics.h">
+         <Option target="SOlib"/>
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/lib/neighbourhood/ETTPNeighborhoodExplorer.h">
+         <Option target="SOlib"/>
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/lib/neighbourhood/ETTPneighbor.h">
+         <Option target="SOlib"/>
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/lib/neighbourhood/ETTPneighborEval.h">
+         <Option target="SOlib"/>
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/lib/neighbourhood/ETTPneighborhood.h">
+         <Option target="SOlib"/>
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/lib/neighbourhood/statistics/ETTPneighborEvalNumEvalsCounter.h">
+         <Option target="SOlib"/>
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/lib/neighbourhood/statistics/ETTPneighborEvalWithStatistics.h">
+         <Option target="SOlib"/>
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/lib/neighbourhood/statistics/ETTPneighborEvalWithStatisticsNumberEvalsCounter.h">
+         <Option target="SOlib"/>
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/lib/neighbourhood/statistics/ETTPneighborWithStatistics.h">
+         <Option target="SOlib"/>
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/lib/neighbourhood/statistics/ETTPneighborhoodWithStatistics.h">
+         <Option target="SOlib"/>
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/lib/statistics/MovedExam.h">
+         <Option target="SOlib"/>
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/lib/statistics/optimised/ExamInfoOpt.cpp">
+         <Option target="SOlib"/>
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/lib/statistics/optimised/ExamInfoOpt.h">
+         <Option target="SOlib"/>
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/lib/statistics/optimised/ExamMoveStatisticsOpt.cpp">
+         <Option target="SOlib"/>
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/lib/statistics/optimised/ExamMoveStatisticsOpt.h">
+         <Option target="SOlib"/>
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/lib/testset/ITC2007TestSet.cpp">
+         <Option target="SOlib"/>
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/lib/testset/ITC2007TestSet.h">
+         <Option target="SOlib"/>
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/lib/testset/TestSet.cpp">
+         <Option target="SOlib"/>
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/lib/testset/TestSet.h">
+         <Option target="SOlib"/>
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/lib/testset/TestSetDescription.cpp">
+         <Option target="SOlib"/>
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/lib/testset/TestSetDescription.h">
+         <Option target="SOlib"/>
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/lib/utils/Common.cpp">
+         <Option target="SOlib"/>
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/lib/utils/Common.h">
+         <Option target="SOlib"/>
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/lib/utils/CurrentDateTime.cpp">
+         <Option target="SOlib"/>
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/lib/utils/CurrentDateTime.h">
+         <Option target="SOlib"/>
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/lib/utils/DateTime.h">
+         <Option target="SOlib"/>
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/lib/utils/Utils.cpp">
+         <Option target="SOlib"/>
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/lib/validator/validator.cc">
+         <Option target="SOlib"/>
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/lib/validator/validator.h">
+         <Option target="SOlib"/>
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/lib/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\lib\" />
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/lib/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\lib\" />
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/lib/algorithms/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\lib\algorithms\" />
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/lib/algorithms/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\lib\algorithms\" />
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/lib/chromosome/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\lib\chromosome\" />
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/lib/chromosome/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\lib\chromosome\" />
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/lib/containers/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\lib\containers\" />
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/lib/containers/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\lib\containers\" />
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/lib/data/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\lib\data\" />
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/lib/data/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\lib\data\" />
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/lib/eval/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\lib\eval\" />
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/lib/eval/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\lib\eval\" />
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/lib/graphColouring/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\lib\graphColouring\" />
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/lib/graphColouring/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\lib\graphColouring\" />
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/lib/init/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\lib\init\" />
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/lib/init/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\lib\init\" />
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/lib/kempeChain/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\lib\kempeChain\" />
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/lib/kempeChain/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\lib\kempeChain\" />
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/lib/neighbourhood/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\lib\neighbourhood\" />
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/lib/neighbourhood/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\lib\neighbourhood\" />
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/lib/statistics/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\lib\statistics\" />
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/lib/statistics/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\lib\statistics\" />
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/lib/testset/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\lib\testset\" />
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/lib/testset/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\lib\testset\" />
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/lib/utils/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\lib\utils\" />
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/lib/utils/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\lib\utils\" />
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/lib/validator/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\lib\validator\" />
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/lib/validator/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\lib\validator\" />
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/exes/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\exes\" />
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/Publications/ESWA2018/FastSA-ETTP/exes/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\exes\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>
